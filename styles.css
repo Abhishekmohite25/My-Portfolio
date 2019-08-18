@@ -1,0 +1,515 @@
+.visible{
+    visibility: visible;
+}
+
+.invisible{
+    visibility: initial;    
+}
+
+.animatedPortrait{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.introWrapper{
+    background: linear-gradient(#041c29,#08486B);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 70px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 0px;
+	margin:0;
+}
+
+.about{
+	margin:0;
+}
+
+.aboutMeWrapper{
+    background-image: url("images/gif.gif" );
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 10vh;
+    padding-right: 14vw;
+    padding-left: 14vw;
+    padding-bottom: 0px;
+	margin:0;
+}
+
+.navbarIcon{
+    margin-top: 2px;
+    margin-left: 6px;
+    margin-right: 6px;
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.navbarIcon:hover{
+    transform: translateY(55px);
+    -webkit-transform: translateY(5px);
+    transition-duration: 0.2s;
+    cursor: pointer;
+    width: 2.75em;
+    height: 2.75em;
+}
+
+.contentIcon{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 10%;
+	height: auto;
+}
+
+.contentIcon:hover{
+    transform: translateY(5%);
+    -webkit-transform: translateY(5%);
+    transition-duration: 0.2s;
+    cursor: pointer;
+    width: 10%;
+	height: auto;
+}
+
+.tooltip > .tooltip-inner {
+    margin-top: 1px;
+    background-color: #147085;
+    color: #f3eedb;
+    opacity: 0.9; 
+    border: 1px solid white;
+    padding: 3px;
+    font-size: 18px;
+    position: bottom;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3px;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000;
+}
+
+.introCol{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.mainTitle{
+    margin-top: 25vh;
+    margin-bottom: 5vh;
+    font-family: 'Pridi', serif;
+    font-size: 75px;
+    color: #ffef9b;
+    line-height: 75%;
+}
+
+.subTitle{
+    line-height: 100%;
+    font-size: 35px;
+    color: #ffef9b;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.centerIt{
+    margin:0 auto;
+    text-align: center;
+}
+
+.aboutMeCol{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.aboutMeHeader{
+    font-size: 25px;
+    border-bottom: 2px solid #12849f;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family: 'Pridi', serif;
+}
+
+.aboutMeContent{
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.aboutMeFrameworks{
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.aboutMeCard{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.90;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+    margin: 0 auto;
+    margin-bottom: 8vh;
+    padding: 20px;
+    padding-right: 65px;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    animation-duration: .75s;
+}
+
+.container-fluid {
+    overflow-x: hidden;
+}
+
+#introArrow{
+    font-size:2em; 
+    color:#ffef9b;
+    margin-top: 7vh; 
+    display: inline-block;
+    transform: scale(2.25,1.5);
+    -webkit-animation: mover 1.25s infinite  alternate;
+    -moz-animation: mover 1.25s infinite  alternate;
+    -o-animation: mover 1.25s infinite  alternate;
+    animation: mover 1.25s infinite  alternate;
+}
+
+#introArrow:hover{ 
+    font-size: 2.2em; 
+    color:white;
+}
+
+.Footer{
+	background: linear-gradient(#ecd091,#FFFFFF);
+	width:100%;
+}
+
+.FooterText{
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    font-family: 'Pridi', serif;
+    opacity: 0.6;
+	color:black;
+}
+
+@-moz-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+@-o-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+@media only screen and (max-width: 1275px) {
+    /* your css of 1024 px screen size */
+    .aboutMeWrapper {
+            -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 9px;
+    padding-right: 9px;
+    }
+    .aboutMeHeader{
+    font-size: 35px;
+    border-bottom: 2px solid #12849f;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family: 'Pridi', serif;
+    }
+    .mainTitle{
+        margin-top: 10vh;
+    }
+    .aboutMeContent{
+        text-align: center;
+    }
+    .aboutMeCard{
+        padding-right: 20px;
+    }
+    .cardText{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    /* your css of 640 px screen size */
+        .aboutMeWrapper {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -1300px;
+    padding-left: 9px;
+    padding-right: 9px;
+    }
+
+    .aboutMeHeader{
+    font-size: 20px;
+    border-bottom: 2px solid #12849f;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family: 'Pridi', serif;
+	}
+    .mainTitle{
+        margin-top: 10vh;
+    }
+    .aboutMeContent{
+        text-align: center;
+    }
+    .aboutMeCard{
+        padding-right: 20px;
+    }
+    .cardText{
+        font-size: 17px;
+    }
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+*,
+*::before,
+*::after {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+.education{
+  font: normal 16px/1.5 'Pridi', serif;
+  background: linear-gradient(#08486B,#6b91a6);
+  
+  overflow-x: hidden;
+  padding-bottom: 50px;
+}  /* INTRO SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.foot{
+  background: linear-gradient(#6b91a6,#ecd091);
+}
+
+.intro {
+	text-align:center;
+  font: normal 16px/1.5 'Pridi', serif;
+  background:#FFFFFF;
+  border-radius: 25px;
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+/* ----------------------------------------------------------------TIMELINE–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul {
+   padding: 50px 0;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  font: normal 16px/1.5 'Pridi', serif;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  background: #fff;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #FFFFFF;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #FFFFFF transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #FFFFFF;
+}
+
+.time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.skillHeader{
+  font: normal 2.5rem 'Pridi', serif;
+  background:#FFFFFF;
+  border-radius: 25px;
+  height:20%;
+  padding: 10px;
+  width: 20%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  }
+	
+.skillFrameworks{
+	margin:7%;
+	align-self: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    color: #fff!important;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+	width=100%;
+}
+
+/*-------------------------------------------------------------------------- EFFECTS–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #F45B69;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+/*--------------------------- GENERAL MEDIA QUERIES–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #FFFFFF transparent transparent;
+	}
+}
+
+.navigation {
+	/*  overflow: visible;*/
+  background-color: black;
+  align-items: center;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  opacity: 1;
+}
+
+/* Links inside the navbar */
+.navigation a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: 'Pridi', serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Change background on mouse-over */
+.navigation a:hover {
+  background: white;
+  color: black;
+}
+
